@@ -1,2 +1,2 @@
 # SFUDA-CropMapping
-The code and data will be released as soon as the manuscript is published...
+The code and data will be released by mid-October.
