@@ -1,2 +1,2 @@
 # SFUDA-CropMapping
-The code and data will be released by late-March.
+The code and data will be released by mid-April.
