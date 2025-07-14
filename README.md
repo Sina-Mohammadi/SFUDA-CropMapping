@@ -12,7 +12,7 @@ Our paper has been accepted to Remote Sensing of Environment and is publicly ava
 
 ### Usage
 
-1- Download the preprocessed training data for the three sites in the USA from [Google Drive](https://drive.google.com/file/d/1sF0djNwGY2uXnxwvQPQuiVMhyNEsp_nz/view?usp=sharing) - Then extract the ZIP file into the root directory.
+1- Download the preprocessed data for the three sites in the USA from [Google Drive](https://drive.google.com/file/d/1sF0djNwGY2uXnxwvQPQuiVMhyNEsp_nz/view?usp=sharing) - Then extract the ZIP file into the root directory.
 
 2- Pretrain the model on the source domain data using the following code:
 
@@ -30,10 +30,11 @@ python source_training.py --pretrained_save_dir Pretrained_USA --backbone_networ
 
 - *data_dir*: Path where the data of the three sites are located.
 
+
 3- Apply domain adaptation to the target domain data and evaluate the perfromance using the following code:
 
 ```
-!python AdaptationandEvaluation.py --adapted_save_dir Adapted --pretrained_save_dir Pretrained_USA --backbone_network CNN --source_site A --target_site C --source_year 2019 --target_year 2021
+python AdaptationandEvaluation.py --adapted_save_dir Adapted --pretrained_save_dir Pretrained_USA --backbone_network CNN --source_site A --target_site C --source_year 2019 --target_year 2021
 ```
 
 - *target_site*: You can select either 'A','B',or 'C'.
