@@ -22,9 +22,9 @@ python source_training.py --pretrained_save_dir Pretrained_USA --backbone_networ
 
 - *backbone_network*: You can select either of 'CNN', 'Transformer', or 'LSTM'.
 
-- *source_site*: You can select either of 'A','B',or 'C'.
-- 
-- *source_year*: You can select either of '2019','2020',or '2021'.
+- *source_site*: You can select either 'A','B',or 'C'.
+
+- *source_year*: You can select either '2019','2020',or '2021'.
 
 - *pretrained_save_dir*: Set the path for saving the pretrained model.
 
@@ -36,9 +36,9 @@ python source_training.py --pretrained_save_dir Pretrained_USA --backbone_networ
 !python AdaptationandEvaluation.py --adapted_save_dir Adapted --pretrained_save_dir Pretrained_USA --backbone_network CNN --source_site A --target_site C --source_year 2019 --target_year 2021
 ```
 
-- *target_site*: You can select either of 'A','B',or 'C'.
+- *target_site*: You can select either 'A','B',or 'C'.
 - 
-- *target_year*: You can select either of '2019','2020',or '2021'.
+- *target_year*: You can select either '2019','2020',or '2021'.
 
 - *adapted_save_dir*: Set the path for saving the adapted models.
 
