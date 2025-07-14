@@ -38,7 +38,7 @@ def args():
     parser.add_argument("--adapted_save_dir", type=str, default='./Adapted/')
     parser.add_argument("--backbone_network", type=str, choices=['CNN', 'LSTM','Transformer'])
     parser.add_argument("--batch_size", type=int, default=1024)
-    parser.add_argument("--learning_rate", type=float, default=0.0001)
+    parser.add_argument("--learning_rate", type=float, default=0.001)
     parser.add_argument("--epochs", type=int, default=500)
     parser.add_argument("--gpu", type=list, default=[0])
 
@@ -233,7 +233,7 @@ if __name__ == "__main__":
 
 
 
-    ####### Now that the adaptation is complete, we evaluate the perfromance using the code below:
+    ####### Now that the adaptation is complete, we evaluate the performance using the code below:
 
     TargetLoader=DataLoader(CropMappingDataset(image_target, label_target),batch_size=cfg.batch_size, shuffle=False,num_workers=0,collate_fn=_collate_fn)
 
