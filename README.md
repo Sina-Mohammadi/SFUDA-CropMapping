@@ -20,7 +20,7 @@ Our paper has been accepted to Remote Sensing of Environment and is publicly ava
 python source_training.py --pretrained_save_dir Pretrained_USA --backbone_network CNN --source_site A --source_year 2019 --data_dir Data_USA
 ```
 
-- *backbone_network*: You can select either of 'CNN', 'Transformer', or 'LSTM'.
+- *backbone_network*: You can select either 'CNN', 'Transformer', or 'LSTM'.
 
 - *source_site*: You can select either 'A','B',or 'C'.
 
