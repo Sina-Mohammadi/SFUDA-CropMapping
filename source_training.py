@@ -26,10 +26,10 @@ torch.manual_seed(10)
 def args():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_dir", type=str, default='./Data_USA/')
+    parser.add_argument("--data_dir", type=str, default='Data_USA')
     parser.add_argument("--source_site", type=str, choices=['A', 'B','C'])
     parser.add_argument("--source_year", type=str, choices=['2019', '2020','2021'])
-    parser.add_argument("--pretrained_save_dir", type=str, default='./Pretrained_USA/')
+    parser.add_argument("--pretrained_save_dir", type=str, default='Pretrained_USA')
     parser.add_argument("--backbone_network", type=str, choices=['CNN', 'LSTM','Transformer'])
     parser.add_argument("--batch_size", type=int, default=1024)
     parser.add_argument("--learning_rate", type=float, default=0.0001)
