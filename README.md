@@ -12,7 +12,7 @@ Our paper has been accepted to Remote Sensing of Environment and is publicly ava
 
 ### Usage
 
-1- Download the preprocessed data for the three sites in the USA from [Google Drive](https://drive.google.com/file/d/1sF0djNwGY2uXnxwvQPQuiVMhyNEsp_nz/view?usp=sharing) - Then extract the ZIP file into the root directory.
+1- Download the preprocessed data for the three sites in the USA from [Google Drive](https://drive.google.com/file/d/1T_gZFC_njzXU7vG3SawZ92gH6ms9ffT5/view?usp=drive_link) - Then extract the ZIP file into the root directory.
 
 2- Pretrain the model on the source domain data using the following code:
 
