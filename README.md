@@ -22,7 +22,7 @@ python source_training.py --pretrained_save_dir Pretrained_USA --backbone_networ
 
 - *backbone_network*: You can select either 'CNN', 'Transformer', or 'LSTM'.
 
-- *source_site*: You can select either 'A','B',or 'C'.
+- *source_site*: You can select either 'A','B',or 'C'. Please note that Sites A, B, and C correspond to Sites IA, MO, and MS in the paper, respectively.
 
 - *source_year*: You can select either '2019','2020',or '2021'.
 
