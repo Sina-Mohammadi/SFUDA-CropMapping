@@ -43,7 +43,7 @@ python AdaptationandEvaluation.py --adapted_save_dir Adapted --pretrained_save_d
 
 - *adapted_save_dir*: Set the path for saving the adapted models.
 
-
+4- To be able to reconstruct the reconstruct the original 2D spatial map, you can download the boolean masks (1500×1500) from [Google Drive](https://drive.google.com/file/d/1OEG5huz0RJ-vUyipQVRh_f27yUpCWKYh/view?usp=sharing). The masks indicate which pixels were retained after preprocessing.
 
 ## Citation
 ```
